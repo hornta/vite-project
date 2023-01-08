@@ -1,6 +1,3 @@
-/// <reference lib="WebWorker" />
-/// <reference types="vite/client" />
-
 declare var self: ServiceWorkerGlobalScope;
 
 self.addEventListener("install", () => void self.skipWaiting());
