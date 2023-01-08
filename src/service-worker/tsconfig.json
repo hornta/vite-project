@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "WebWorker"],
+    "types": ["vite/client", "serviceworker"]
+  },
+  "include": ["./"],
+  "extends": "../../tsconfig.json"
+}
